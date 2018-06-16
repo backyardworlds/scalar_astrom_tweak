@@ -6,7 +6,7 @@ pro _cache_index_structures
   if n_elements(index) EQ 0 then begin
       ; bad to have hardcoded file paths, could use env variable in future
       atlas = mrdfits('../etc/astrom-atlas.fits', 1)
-      index = mrdfits('../etc/tr_neo2_index.fits', 1)
+      index = mrdfits('../etc/tr_neo3_index-marc.fits', 1)
   endif
 
 end
