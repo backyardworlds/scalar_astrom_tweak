@@ -86,7 +86,7 @@ pro _example, diff_raw, diff_shifted
   cube_shifted = fltarr(2048, 2048, 2)
   for epoch=5, 6 do begin
       fname = $
-        '/global/projecta/projectdirs/cosmo/work/wise/outputs/merge/neo2/e' + $
+        '/global/projecta/projectdirs/cosmo/work/wise/outputs/merge/neo3/e' + $
          string(epoch, format='(I03)') + '/' + strmid(coadd_id, 0, 3) + '/' + $
          coadd_id + '/unwise-' + coadd_id + '-w1-img-u.fits'
       im = readfits(fname)
